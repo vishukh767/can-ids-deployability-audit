@@ -1,0 +1,18 @@
+Overall accuracy: 0.9992
+
+              precision    recall  f1-score   support
+
+         DoS      1.000     1.000     1.000      6000
+       Fuzzy      0.999     0.998     0.998      6000
+      Normal      0.998     0.999     0.999      6000
+    Spoofing      1.000     1.000     1.000      6000
+
+    accuracy                          0.999     24000
+   macro avg      0.999     0.999     0.999     24000
+weighted avg      0.999     0.999     0.999     24000
+
+Confusion matrix (rows=true, cols=predicted), order = ['Normal', 'DoS', 'Fuzzy', 'Spoofing']
+[[5995    0    5    0]
+ [   0 6000    0    0]
+ [  12    0 5987    1]
+ [   0    0    0 6000]]
